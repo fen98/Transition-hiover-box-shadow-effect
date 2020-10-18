@@ -1,0 +1,351 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+nav{
+	background: white;
+	width: 100%;
+	height: 90px;
+	line-height: 100px;
+}
+
+nav .nav-menu{
+	width: 35%;
+	height: 90px;
+	float: left;
+}
+
+nav .nav-menu a{
+	font-size: 20px;
+	margin-left: 50px;
+	color: black;
+}
+
+nav .nav-menu a:hover{
+	color: skyblue;
+}
+
+nav .nav-logo{
+	font-size: 25px;
+	width: 30%;
+	height: 90px;
+	text-align: center;
+	float: left;
+}
+
+nav .nav-logo a{
+	color: black;
+}
+
+nav .nav-logo a:hover{
+	color: skyblue;
+}
+
+nav .nav-search{
+	width: 35%;
+	height: 90px;
+	float: left;
+}
+
+nav .nav-search a{
+	font-size: 20px;
+	margin-left: 40px;
+	color: black;
+}
+
+nav .nav-search a:hover{
+	color: skyblue;
+}
+
+nav .nav-search input{
+	border-radius: 5px;
+	padding: 3px;
+}
+
+nav .nav-search input[type="text"]{
+	margin-left: 40px;
+}
+
+.purcashe{
+	background-image: url(../images/mobile-phone.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	color: white;
+}
+
+.purcashe h1{
+	font-family: "PT Serif",serif;
+	font-weight: 700;
+	font-size: 40px;
+	padding-top: 70px;
+}
+
+.purcashe p{
+	font-family: "PT Serif",serif;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: 900;
+}
+
+.purcashe a{
+	background: green;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: auto;
+	margin-top: 20px;
+	color: white;
+}
+
+.purcashe a:hover{
+	color: lightgreen;
+}
+
+.oppo{
+	border-bottom: 1px solid #D6DBDF; 
+	width: 350px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.oppo h3{
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.oppo img{
+	width: 200px;
+	height: 120px;
+	-webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+}
+
+.oppo img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.oppo p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	line-height: 20px;
+}
+
+.vivo{
+	border-bottom: 1px solid #D6DBDF; 
+	width: 350px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.vivo h3{
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.vivo img{
+	width: 200px;
+	height: 120px;
+	-webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+}
+
+.vivo img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.vivo p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	line-height: 20px;
+}
+
+.samsung{
+	border-bottom: 1px solid #D6DBDF; 
+	width: 350px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.samsung h3{
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.samsung img{
+	width: 200px;
+	height: 120px;
+	-webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+}
+
+.samsung img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.samsung p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	line-height: 20px;
+}
+
+.apple{
+	border-bottom: 1px solid #D6DBDF; 
+	width: 350px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.apple h3{
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.apple img{
+	width: 200px;
+	height: 120px;
+	-webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+}
+
+.apple img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.apple p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	line-height: 20px;
+}
+
+.realme{
+	border-bottom: 1px solid #D6DBDF; 
+	width: 350px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.realme h3{
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.realme img{
+	width: 200px;
+	height: 120px;
+	-webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+}
+
+.realme img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.realme p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	line-height: 20px;
+}
+
+.redmi{
+	border-bottom: 1px solid #D6DBDF; 
+	width: 350px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+.redmi h3{
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.redmi img{
+	width: 200px;
+	height: 120px;
+	-webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+	transition: .5s;
+}
+
+.redmi img:hover{
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.redmi p{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	line-height: 20px;
+}
+
+footer{
+	background: black;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	clear: both;
+}
+
+footer a{
+	margin: 30px 20px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+footer a:hover{
+	color: blue;
+}
+
+footer p{
+	width: 180px;
+	text-align: center;
+	margin: auto;
+	line-height: 20px;
+	color: white;
+}
